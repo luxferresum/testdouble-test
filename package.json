@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "node --loader=testdouble index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "testdouble": "*",
+    "express": "^4.17.1"
+  }
+}
